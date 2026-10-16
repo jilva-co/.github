@@ -1,0 +1,9 @@
+title: "[Show] "
+body:
+  - type: textarea
+    id: show
+    attributes:
+      label: What did you build?
+      description: Screenshots, terminal recordings, and links welcome.
+    validations:
+      required: true

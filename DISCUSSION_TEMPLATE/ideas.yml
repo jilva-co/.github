@@ -1,0 +1,9 @@
+title: "[Idea] "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: Problem, sketch, prior art. RFCs start here.
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions (questions & ideas)
+    url: https://github.com/orgs/jilva-co/discussions
+    about: Ask questions or propose ideas before filing an issue.
+  - name: Security
+    url: https://github.com/jilva-co/.github/blob/main/SECURITY.md
+    about: Do not report vulnerabilities here. Read the policy.

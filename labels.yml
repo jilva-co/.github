@@ -1,0 +1,9 @@
+# Import manually or via actions/label-syncer (optional).
+- { name: bug, color: "d73a4a", description: "Something is broken" }
+- { name: enhancement, color: "a2eeef", description: "New feature or improvement" }
+- { name: documentation, color: "0075ca", description: "Docs work" }
+- { name: needs-triage, color: "fbca04", description: "Awaiting review" }
+- { name: rfc, color: "7a6cff", description: "Design proposal, needs discussion" }
+- { name: good-first-issue, color: "7057ff", description: "Good entry point" }
+- { name: wontfix, color: "ffffff", description: "Not planned" }
+- { name: duplicate, color: "cfd3d7", description: "Already tracked" }

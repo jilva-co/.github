@@ -1,0 +1,32 @@
+name: Bug report
+description: Something broken or confusing
+title: "bug: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: input
+    id: repo-commit
+    attributes:
+      label: Repo + commit
+      placeholder: "jilva-rs @ abc1234"
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      placeholder: "1. … 2. … 3. …"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "macOS 15 / WezTerm / zsh — or Windows Terminal, etc."
+    validations:
+      required: true
