@@ -1,5 +1,9 @@
 <div align="center">
 
+<p align="center">
+  <img src="./logo.svg" width="120" height="120" alt="jilva logo" />
+</p>
+
 # jilva
 
 **Beautiful frameworks for developers.**
